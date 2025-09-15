@@ -24,8 +24,8 @@ np.random.seed(42)
 torch.manual_seed(42)
 
 ############ Configuration ############
-img_dir="/Users/rasha/Downloads/vlab/pothole-detection/Data"; print('Image:', img_dir)
-annot_dir="/Users/rasha/Downloads/vlab/pothole-detection/Label"; print('Label:', annot_dir)
+img_dir="/pothole-detection/Data"; print('Image:', img_dir)
+annot_dir="/pothole-detection/Label"; print('Label:', annot_dir)
 
 #label 0 is fixed for background
 classes=["background","pothole"]
